@@ -333,6 +333,32 @@
         </AttachedObjects>
       </Graphics>
     </Fixed>
+    <Link Name="Path1" Type="Path" Size="4.8 0 0" Scope="Public" Start="Output@Source1" End="Input@Server1">
+      <Properties>
+        <Property Name="InitialCost" Units="USD">0.0</Property>
+        <Property Name="InitialCostRate" Units="USD per Hour">0.0</Property>
+        <Property Name="ResourceIdleCostRate" Units="USD per Hour">0.0</Property>
+        <Property Name="ResourceCostPerUse" Units="USD">0.0</Property>
+        <Property Name="ResourceUsageCostRate" Units="USD per Hour">0.0</Property>
+        <Property Name="DynamicSelectionRule">
+          <Value>None</Value>
+        </Property>
+      </Properties>
+      <Graphics ExternallyVisible="True" />
+    </Link>
+    <Link Name="Path2" Type="Path" Size="3.47 0 0" Scope="Public" Start="Output@Server1" End="Input@Sink1">
+      <Properties>
+        <Property Name="InitialCost" Units="USD">0.0</Property>
+        <Property Name="InitialCostRate" Units="USD per Hour">0.0</Property>
+        <Property Name="ResourceIdleCostRate" Units="USD per Hour">0.0</Property>
+        <Property Name="ResourceCostPerUse" Units="USD">0.0</Property>
+        <Property Name="ResourceUsageCostRate" Units="USD per Hour">0.0</Property>
+        <Property Name="DynamicSelectionRule">
+          <Value>None</Value>
+        </Property>
+      </Properties>
+      <Graphics ExternallyVisible="True" />
+    </Link>
   </Objects>
   <Schedules>
     <Schedule Name="StandardWeek" CycleDays="7" StartDate="2011-01-03T00:00:00" Description="Standard Work Week Schedule">
@@ -354,10 +380,10 @@
     </DayPattern>
   </DayPatterns>
   <SaveHistories>
-    <SaveHistory SavedDateTime="2025-06-18T04:03:54" ProductVersion="18.276.45400.0" Edition="RPS" />
+    <SaveHistory SavedDateTime="2025-06-18T04:05:08" ProductVersion="18.276.45400.0" Edition="RPS" />
   </SaveHistories>
   <Graphics>
     <AnimationSetup MinimumNumberOfFramesToDisplayIdleAnimation="10" />
   </Graphics>
 </Fragment>
-<!-- c3iSO+1kn5u/ljJ9h3hYgibdpNkysdDsCiT7VRW/9ySPFEbT1e7jLgeOCVkdbSJ4KoX95alrDeUT3IrAbOEgpw== -->
+<!-- d3Xu1XaDq0itovtKFbxUvL6sxViXrrep/Xskj3Z2OI029yiptRWSVPwGzV4GVviXDfxo5ATkQMODZ0T0Mc2OtQ== -->
